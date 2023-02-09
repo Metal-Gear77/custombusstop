@@ -20,6 +20,8 @@
 # is commented out by default.
 #.vscode/
 
+lib/controller/secret_key.dart
+
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
@@ -44,5 +46,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-lib/controller/secret_key.dart
