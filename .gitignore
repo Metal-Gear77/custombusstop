@@ -20,7 +20,9 @@
 # is commented out by default.
 #.vscode/
 
+
 lib/controller/secret_key.dart
+
 
 # Flutter/Dart/Pub related
 **/doc/api/
