@@ -1,3 +1,4 @@
+import 'package:custombusstop/controller/secret_key.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 import 'package:xml/xml.dart';
@@ -10,7 +11,7 @@ class GoHomeControllerReactive extends GetConnect {
 
   final queryParameters2 = {
     'serviceKey':
-        '7W7oGzJbvj3Nj324D8u6E1dbkAbUqWosKDUtUfzLjcgywWbMfdijFOTkyowfYtpfELfqWkA/wQ9G4HNXUcGjKw==',
+        SecretKey().secretKey,
     'stId': '106000195',
     'busRouteId': '100100205',
     'ord': '23',
